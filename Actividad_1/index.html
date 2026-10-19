@@ -4,45 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="favicon.jpg" type="image/jpg" sizes="64x64">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="img/logo.svg" height="25px" alt="Logo"></a>
+        <a href="index.html"><img src="img/logo.svg" height="25" alt="Logo"></a>
         <nav>
             <ul>
                 <li><a href="index.html">Buscador</a></li>
-                <li><a href="about.html">Contacte</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
             </ul>
+        </nav>
     </header>
 <main>
     <section>
            <h1>BUSCAR una pel-lícula</h1>
     <p> Milions de títols, un sol cercador.</p>
     <div>
-        <input type="text" name="query" placeholder="Cercar una pel·lícula, per exemple: 'The Matrix'">
-        <button type="submit">Cercar</button>
-        
+        <form method="get" action="https://www.themoviedb.org/search">
+            <input type="search" id="query" placeholder="Cercar una pel·lícula, per exemple: 'The Matrix'">
+           <label for="query">Cercar una pel-licula</label>
+            <button type="submit">Cercar</button>
+        </form>
     </div>
+    </section>
     <section>
         <h2>Resultats</h2>
     <div>
         <article>
             <h3>Spider-Man: Brand New Day</h3>
-            <a> <img src="img/Spider.jpg" alt="Spider-Man: Brand New Day" height="300px" width="200px"> </a>
+            <a> <img src="img/Spider.jpg" alt="Spider-Man: Brand New Day" height="300" width="200"> </a>
             <p>Spider-Man: Brand New Day(2026)</p>
         </article>
         <article>
             <h3>Aún estoy aquí</h3>
-            <a> <img src="img/Aun.jpg" alt="Aún estoy aquí" height="300px" width="200px"> </a>
+            <a> <img src="img/Aun.jpg" alt="Aún estoy aquí" height="300" width="200"> </a>
             <p>Aún estoy aquí(2025)</p>
         </article>
         <article>
             <h3>Toy Story 5</h3>
-            <a> <img src="img/Toy.jpg" alt="Toy Story 5" height="300px" width="200px"> </a>
+            <a> <img src="img/Toy.jpg" alt="Toy Story 5" height="300" width="200"> </a>
             <p>Toy Story 5(2026)</p>
         </article>
     </div>
-
+    </section>
+</main>
 <footer>
     <p>© 2026 Buscador de Películas. Todos los derechos reservados.</p>
 </footer>
