@@ -1,56 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" href="favicon.jpg" type="image/jpg" sizes="64x64">
+    <title>Buscador de Pel·lícules</title>
+
+    <link rel="icon" href="favicon.ico" type="image/png">
+
+    <link rel="stylesheet" href="css/estils.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a href="index.html"><img src="img/logo.svg" height="25" alt="Logo"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Buscador</a></li>
-                <li><a href="contacte.html">Contacte</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<header>
+    <a href="index.html">
+        <img src="img/logo.svg" alt="TMDB Logo" height="30">
+    </a>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Buscador</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+        </ul>
+    </nav>
+</header>
+
 <main>
-    <section>
-           <h1>BUSCAR una pel-lícula</h1>
-    <p> Milions de títols, un sol cercador.</p>
-    <div>
+
+    <section class="buscador">
+
+        <h1>BUSCA UNA PEL·LÍCULA</h1>
+
+        <p>Milions de títols, un sol cercador.</p>
+
         <form method="get" action="https://www.themoviedb.org/search">
-            <input type="search" id="query" placeholder="Cercar una pel·lícula, per exemple: 'The Matrix'">
-           <label for="query">Cercar una pel-licula</label>
+
+            <input
+                class="barra-cerca"
+                type="search"
+                name="query"
+                placeholder="Cerca una pel·lícula, per exemple «Dune»..."
+            >
+
             <button type="submit">Cercar</button>
+
         </form>
-    </div>
+
     </section>
-    <section>
+
+    <section class="pelicules">
+
         <h2>Resultats</h2>
-    <div>
-        <article>
-            <h3>Spider-Man: Brand New Day</h3>
-            <a> <img src="img/Spider.jpg" alt="Spider-Man: Brand New Day" height="300" width="200"> </a>
-            <p>Spider-Man: Brand New Day(2026)</p>
-        </article>
-        <article>
-            <h3>Aún estoy aquí</h3>
-            <a> <img src="img/Aun.jpg" alt="Aún estoy aquí" height="300" width="200"> </a>
-            <p>Aún estoy aquí(2025)</p>
-        </article>
-        <article>
-            <h3>Toy Story 5</h3>
-            <a> <img src="img/Toy.jpg" alt="Toy Story 5" height="300" width="200"> </a>
-            <p>Toy Story 5(2026)</p>
-        </article>
-    </div>
+
+        <div class="resultats">
+
+            <article class="tarjeta">
+                <img src="img/Toy.jpg" alt="Toy Story">
+
+                <div class="info">
+                    <h3>Toy Story 5</h3>
+                    <p>2026</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img/Aun.jpg" alt="Aún estoy aquí">
+
+                <div class="info">
+                    <h3>Aún estoy aquí</h3>
+                    <p>2025</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img/Spider.jpg" alt="Spider-Man">
+
+                <div class="info">
+                    <h3>Spider‑Man: Brand New Day</h3>
+                    <p>2026</p>
+                </div>
+            </article>
+
+        </div>
+
     </section>
+
 </main>
+
 <footer>
-    <p>© 2026 Buscador de Películas. Todos los derechos reservados.</p>
+    <p>© 2026 The Movie Database — Maqueta de disseny</p>
 </footer>
+
 </body>
 </html>
