@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <isbn>978-84-233-5033-4</isbn>
+        <titulo>La plaça del Diamant</titulo>
+        <autor>Mercè Rodoreda</autor>
+        <ano>1962</ano>
+        <genero>Novela</genero>
+        <precio moneda="EUR">12,50</precio>
+        <disponible>Sí</disponible>
+    </libro>
+    <libro>
+        <isbn>978-84-662-1830-2</isbn>
+        <titulo>Tirant lo Blanc</titulo>
+        <autor>Joanot Martorell, Martí Joan de Galba</autor>
+        <ano>1490</ano>
+        <genero>Cavalleresca</genero>
+        <precio moneda="EUR">15,00</precio>
+        <disponible>No</disponible>
+    </libro>
+    <libro>
+        <isbn>978-84-9759-123-4</isbn>
+        <titulo>Mecanoscrit del segon origen</titulo>
+        <autor>Manuel de Pedrolo</autor>
+        <ano>1974</ano>
+        <genero>Ficción Científica</genero>
+        <precio moneda="EUR">10,90</precio>
+        <disponible>Sí</disponible>
+    </libro>    
+</biblioteca>   

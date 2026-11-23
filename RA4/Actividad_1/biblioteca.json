@@ -1,0 +1,33 @@
+{
+    "nom":"Biblioteca Institut TIC de Barcelona",
+    "libros": [
+        {
+            "isbn": "978-84-233-5033-4",
+            "titulo": "La plaça del Diamant",
+            "autor": "Mercè Rodoreda",
+            "ano": 1962,
+            "genero": "Novela",
+            "precio": 12.50,
+            "disponible": "Sí"
+        },
+        {
+            "isbn": "978-84-662-1830-2",
+            "titulo": "Tirant lo Blanc",
+            "autor": "Joanot Martorell, Martí Joan de Galba",
+            "ano": 1490,
+            "genero": "Cavalleresca",
+            "precio": 15.00,
+            "disponible": "No"
+        },
+        {
+            "isbn": "978-84-9759-123-4",
+            "titulo": "Mecanoscrit del segon origen",
+            "autor": "Manuel de Pedrolo",
+            "ano": 1974,
+            "genero": "Ficción Científica",
+            "precio": 10.90,
+            "disponible": "Sí"
+        }
+
+    ]
+}
