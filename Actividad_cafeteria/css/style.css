@@ -1,0 +1,130 @@
+
+/* 1. ESTILS GENERALS */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f5ef;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+/* 2. CAPÇALERA I MENÚ */
+
+header {
+    background-color: #14213d;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+header h2 {
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #fca311;
+    text-decoration: underline;
+}
+
+
+/* 3. BANNER INICIAL */
+
+.banner {
+    background: #14213d url("img/cafe.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.boto {
+    display: inline-block;
+    background-color: rgb(252, 163, 17);
+    color: #14213d;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.boto:hover {
+    background-color: #fff;
+}
+
+
+/* 4. TARGETES DE LA CARTA */
+
+main {
+    width: 800px;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.targeta {
+    background-color: white;
+    border: 2px solid #14213d;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.targeta h2 {
+    color: #14213d;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.preu {
+    color: rgb(218, 132, 11);
+    font-weight: bold;
+}
+
+
+/* 5. HORARI I PEU DE PÀGINA */
+
+.horari {
+    width: 600px;
+    max-width: 90%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(252, 163, 17, 0.15);
+    border: 2px dashed #fca311;
+    border-radius: 12px;
+    text-align: center;
+}
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
